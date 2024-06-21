@@ -14,7 +14,7 @@ publish = ["crates-io"]
 
 [dependencies]
 log = { version = "0.4.8", optional = true }
-serial2 = "0.2.24"
+serial2 = { git = "https://github.com/de-vri-es/serial2-rs.git", branch = "apple-baud-rates" }
 
 [dev-dependencies]
 assert2 = "0.3.3"
